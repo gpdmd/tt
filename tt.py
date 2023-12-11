@@ -19,6 +19,6 @@ st.pyplot(fig)
 import sys
 sys.exit()
 
-fig, ax = plt.subplots()
+
 
 
