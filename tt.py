@@ -4,7 +4,7 @@ import streamlit as st
 fig, ax = plt.subplots()
 
 c1 = st.sidebar.radio('선의 색을 선택하시오',['red','green','blue','oreange'])
-s1 = st.sidebar.radio('선의 스타일을 선택하시오',['-',':',','-.','--'}'])
+s1 = st.sidebar.radio('선의 스타일을 선택하시오',['-',':','-.','--'])
 m1 = st.sidebar.radio('마커의 스타일을 선택하시오', ['o', 't', 's', 'p'])
 
 love = []
